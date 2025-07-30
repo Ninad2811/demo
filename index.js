@@ -6,7 +6,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/api/message", (req, res) => {
-  res.json({ message: "Hello from Railway Backend!" });
+  res.json({ message: " Backend!" });
 });
 
 const PORT = process.env.PORT || 5000;
